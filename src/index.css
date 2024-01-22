@@ -1,0 +1,70 @@
+#logo-image{
+  width: 50px;
+  margin-left: 10px;
+}
+#me-image{
+width: 500px;
+height: fit-content;
+border-radius: 50px;
+}
+/* #about-content:hover{
+  background-color: aqua;
+  border-color: rgb(57, 248, 57);
+} */
+#btn{
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.hero {
+  position: relative;
+  height: 400px; 
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.bottom-footer {
+  background-color: #222;
+  padding: 10px 0;
+  text-align: center;
+  color: #ccc;
+}
+a{
+  text-decoration: none;
+}
+#email-icon{
+  width: 25px;
+}
+#phone-icon{
+  width: 25px;
+}
+#about-content{
+  background-image: url('./images/hero-image/hero-image2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
